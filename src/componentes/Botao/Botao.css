@@ -1,0 +1,24 @@
+.botao {
+    background-color: #EC268F;
+    border: 3.5px solid #EC268F;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 32px 0;
+    padding: 25px 32px;
+}
+
+.botao:hover{
+    border: 3.5px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .botao{
+        width: 100%;
+    }
+}

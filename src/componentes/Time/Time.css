@@ -1,0 +1,27 @@
+.time {
+    padding: 32px;
+    text-align: center;
+    position: relative;
+    background: url("../../../public/imagens/fundo.png") ;
+}
+
+.time h3 {
+    border-bottom: 4px solid;
+    display: inline-block;
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-cor {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
